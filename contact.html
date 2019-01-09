@@ -51,9 +51,10 @@
       <div class="row">
         <div class="col-sm-9">
           <h1 class="mt-4">Contact Us</h1>
-          <p> If you would like to find out more information about any of the
-            services we offer, please fill out the form below. After filling out
-            the form with necessary information, you will 
+          <p> If you would like more information about any of the services we offer, 
+            please fill out the form below and we will be in contact with you 
+            within 5 business days. Thank you so much for your desire to connect 
+            with us, and we look forward to working with you!
           </p>
 
         </div>
@@ -80,35 +81,35 @@
             <!-- Name field -->
             <div class="col-sm-5">
               <h4 class="text-secondary">Name<br></h4>
-              <input type="text" id="name" size="50"><br><br>
+              <input type="text" id="name" size="50" placeholder="Jane Doe"><br><br>
             </div>
 
             <!-- Email field -->
             <div class="col-sm-5">
               <h4 class="text-secondary">Email<br></h4>
-              <input type="text" id="mail" size="50"><br><br>
+              <input type="text" id="mail" size="50" placeholder="janedoe@email.com"><br><br>
             </div>
 
              <!-- Phone field -->
              <div class="col-sm-5">
                 <h4 class="text-secondary">Phone Number<br></h4>
-                <input type="text" id="phone" size="50"><br><br>
+                <input type="text" id="phone" size="50" placeholder="(555) 555-5555"><br><br>
               </div>
 
               <!-- Subject field -->
               <div class="col-sm-5">
                 <h4 class="text-secondary">Subject<br></h4>
-                <input type="text" id="subject" size="50"><br><br>
+                <input type="text" id="subject" size="50" placeholder="Enter a subject line..."><br><br>
               </div>
 
               <!-- Message field -->
               <div class="col-sm-8">
                 <h4 class="text-secondary">Message<br></h4>
-                <textarea rows="5" cols="110" id="message"></textarea><br>
+                <textarea rows="5" cols="110" id="message" placeholder="Enter your message here..."></textarea><br>
               </div>
             </div>   
             <br>
-            <button type="button" onclick="sendToZimatry(); return false">Send</button>
+            <button type="button" onclick="sendToZimatry(); return false">Email</button>
             <input type="reset" value="Reset">
         </form> 
       </div> 
@@ -117,7 +118,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-primary">Copyright &copy; Your Website 2018</p>
+        <p class="m-0 text-center text-primary">Copyright &copy; <a href="mailto:Zimatry@gmail.com">Zimatry</a>  2019</p>
       </div>
       <!-- /.container -->
     </footer>
@@ -125,7 +126,7 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="test.js"></script>
+    <script src="email.js"></script>
 
   </body>
 
